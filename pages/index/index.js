@@ -11,47 +11,47 @@ Page({
     blogList:[
         {
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'我是标题',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },
         {
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },
         {
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },
         {
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
-          title:'aaaaaa',
-          content:'摩诃萨的搜嘎放虎归山大解放后'
+          title:'小程序之个人博客',
+          content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         }
     ],
     indicatorDots: true,

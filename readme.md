@@ -5,6 +5,8 @@
 #### 项目简介
 > 本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例。
 
+#### 项目预览
+![小程序预览](http://odrfqp7tm.bkt.clouddn.com/xiaochengxupreviewimage.png)
 #### 项目功能
 1. 登录注册
 2. 精彩博文推荐
