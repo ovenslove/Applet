@@ -3,25 +3,31 @@
 
 <swiper  indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-  <block wx:for="{{imgUrls}}">
+  <block wx:for="{{imgUrls}}" wx:key="swiper">
     <swiper-item>
       <image src="{{item}}" class="slide-image" width="355" height="150"/>
     </swiper-item>
   </block>
 </swiper>
 <scroll-view class="blogList" >
-  <block wx:for="{{blogList}}">
+  <block wx:for="{{blogList}}" wx:key="blogList">
+
+
   <view class="simBlog">
     <view class="preImageBox">
-    <image src="{{item.preImg}}" class="preImage"/>
-      
+      <image src="{{item.preImg}}" class="preImage"/>
     </view>
+
     <view class="contentBox">
-      <text class="title">{{item.title}}</text>
+      <navigator url="../blog/blog?blogid={{item.blogId}}&title={{item.title}}" hover-class="navigator-hover">
+          <text class="title">{{item.title}}</text>
+      </navigator>
       <text class="content">{{item.content}}</text>
     </view>
+
   </view>
-  </block> 
-  
+
+  </block>
+
 </scroll-view>
 </view>

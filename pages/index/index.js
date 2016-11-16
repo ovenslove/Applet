@@ -10,45 +10,55 @@ Page({
     ],
     blogList:[
         {
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },
         {
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },
         {
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },
         {
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
         },{
+          blogId:'11100',
           preImg:'http://ac-mhke0kuv.clouddn.com/9c91c094a8e20b9136c6.jpg?imageView/2/w/800/h/600/q/80/format/jpeg',
           title:'小程序之个人博客',
           content:'本项目是使用小程序开发模式，以一个博客APP为开发案例，尽可能涵盖小程序所有的组件和API，组装成一个完整的小程序案例'
@@ -57,26 +67,10 @@ Page({
     indicatorDots: true,
     autoplay: true,
     interval: 3000,
-    duration: 1000
+    duration: 500
   },
-  changeIndicatorDots: function(e) {
-    this.setData({
-      indicatorDots: !this.data.indicatorDots
-    })
-  },
-  changeAutoplay: function(e) {
-    this.setData({
-      autoplay: !this.data.autoplay
-    })
-  },
-  intervalChange: function(e) {
-    this.setData({
-      interval: e.detail.value
-    })
-  },
-  durationChange: function(e) {
-    this.setData({
-      duration: e.detail.value
-    })
+  onPullDownRefresh:function() {
+    console.log("111");
+    wx.stopPullDownRefresh();
   }
 })

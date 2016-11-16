@@ -3,13 +3,15 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/conf/conf",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/blog/blog"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Blog",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
     "list": [{
