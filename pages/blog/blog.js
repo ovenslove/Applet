@@ -10,16 +10,19 @@ Page({
     this.setData({
         title: options.title
       });
-      // 找后台要小程序允许的域名
-      // wx.request({
-      //       url: '',
-      //       method: 'GET',
-      //       success:function(res) {
-      //           that.setData({
-      //               result: res.data.results
-      //           })
-      //       }
-      //
-      //   })
+      var that=this;
+      //找后台要小程序允许的域名
+      wx.request({
+            url: 'https://api.jqstudy.cn/blog.json',
+            method: 'GET',
+            success:function(res) {
+              that.setData({
+                  title: res.data.title,
+                  content:res.data.content
+                });
+              console.log(res.data);
+            }
+
+        })
   }
 })
