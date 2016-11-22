@@ -1,0 +1,27 @@
+.blogContainer{
+  width:100vw;
+  height:100vh;
+  box-sizing:border-box;
+  padding:10px;
+}
+.blogTitle{
+  font-weight:700;
+  font-size:16px;
+  display:block;
+  border-bottom:1px solid #ddd;
+  padding:10px ;
+  line-height:1.4;
+  box-sizing:border-box;
+}
+.blogContent{
+  display:block;
+  width:100%;
+  height:auto;
+  background:#fefefe;
+  padding:10px;
+  box-sizing:border-box;
+  border: 1px dashed #ddd;
+  margin-top:20px;
+  font-size:0.865rem;
+  line-height:1.4;
+}

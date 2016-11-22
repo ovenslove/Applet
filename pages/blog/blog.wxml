@@ -1,4 +1,6 @@
-<view>
-  <text>{{title}}</text>
-  <text>{{content}}</text>
+<view class="blogContainer">
+  <text class="blogTitle">{{title}}</text>
+  <text class="blogContent">{{content}}</text>
+  <text class="blogContent">{{content}}</text>
+  <text class="blogContent">{{content}}</text>
 </view>

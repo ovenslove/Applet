@@ -19,7 +19,7 @@
     </view>
 
     <view class="contentBox">
-      <navigator url="../blog/blog?blogid={{item.blogId}}&title={{item.title}}" hover-class="navigator-hover">
+      <navigator url="../blog/blog?blogid={{item.id}}&title={{item.title}}" hover-class="navigator-hover">
           <text class="title">{{item.title}}</text>
       </navigator>
       <text class="content">{{item.content}}</text>

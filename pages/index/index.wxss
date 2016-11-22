@@ -45,6 +45,9 @@ swiper image{
   font-size: 30rpx;
   color:#000;
   margin-bottom:5px;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
 }
 .simBlog .contentBox .content{
   display: block;

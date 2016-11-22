@@ -11,7 +11,7 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Blog",
     "navigationBarTextStyle":"black",
-    "enablePullDownRefresh":true
+    "enablePullDownRefresh":false
   },
   "tabBar": {
     "list": [{
